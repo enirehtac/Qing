@@ -1,4 +1,4 @@
-##Just A WordPress Theme##
+##Not Only A WordPress Theme##
 ---------------------------
 ###Demo Site###
 http://uestc.tk
