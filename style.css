@@ -1,0 +1,112 @@
+/*  
+
+Theme Name: Qing
+
+Theme URI: http://www.qinglt.com
+
+Author: Enirehtac
+
+Description : Fork us on GitHub >> http://github.com/enirehtac/Qing
+
+Author URI: http://enirehtac.com
+
+Version: 0.9
+
+*/
+body {
+
+font-family: 'Microsoft Yahei', Simsun, Arial,  Helvetica, sans-serif, Tahoma;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {font-family: 'Microsoft Yahei', Simsun, Arial,  Helvetica, sans-serif, Tahoma; }
+img { border: 0; max-width: 100%; }
+.alignleft { float:left;}
+.alignright { float:right;}
+.aligncenter { margin-left:auto; margin-right:auto;display: block;}
+
+#topbar {background: #6882BE; color: #fff; border:none; border-radius: 0; height: 50px;}
+#topbar li {margin-left: 5px;}
+#topbar a {color: #fff;}
+#topbar .active a,#topbar .open a,#topbar .navbar-nav a:hover {color: #3ba2ee; background: #fff;}
+#topbar .dropdown a .caret {border-top-color: #fff;border-bottom-color: #fff;}
+#topbar .open a .caret,#topbar .dropdown a:hover .caret {border-top-color: #3ba2ee;border-bottom-color: #3ba2ee;}
+#topbar .open .dropdown-menu a:hover {background: #3ba2ee; color: #fff;}
+#topbar .dropdown-menu {right: -1px;}
+#topbar .dropdown-menu li {margin-left: 0;}
+#topbar .dropdown-menu li a {color: #555;}
+#topbar .navbar-nav .avatar {margin-right: 5px;}
+
+#list-grid .panel-heading {background: #fff;}
+#list-grid .panel-heading,#list-grid .list-group-item {padding: 10px 0 10px 15px;}
+#list-grid .row {margin-left: 0;margin-right: 0;}
+#list-grid .panel-heading .col-info {text-align: center;}
+#list-grid .col {padding:0 15px 0 0;}
+.list-avatar {margin:0 15px 10px 0;}
+.list-group-item-info {width: 100%; text-align: center;color: #fff; font-size: 16px;font-family: Helvetica;}
+.views {background: #e5e5e5;}
+.comments {background: #969cb1;}
+.list-group-item-info .edui-tooltip {display: none!important;}
+
+#pager {margin-top: 0;}
+
+#fabu {position: relative;}
+#fabu .nav,#fabu,#comment .nav  {margin-bottom: 20px;}
+#fabu .form-control-static {line-height: 30px; padding-top: 0;}
+#error {line-height: 30px; margin-bottom: 20px;}
+.tips {padding:0 10px; color: #fff; display: block;}
+.tips1 {background: #7db912;}
+.tips2 {background: #ec4827;}
+#sign-in-fabu {position: absolute; left: 50%; width: 200px; margin-left: -100px; text-align: center; top:260px; z-index: 1001; color: #555;}
+
+footer {padding: 30px 0; border-top:1px solid #ddd; background: #fafafa;}
+
+#single {margin-bottom: 20px;}
+#content h1#the_title {margin:0 0 20px; border-bottom: 1px solid #f1f1f1; padding-bottom: 15px; color: #333; position: relative; padding-right: 150px;}
+#entry {color: #555;margin:0 0 20px;border-bottom: 1px solid #f1f1f1; padding-bottom: 15px; }
+#author-info {margin:0 0 20px;border-bottom: 1px solid #f1f1f1; padding-bottom: 15px;}
+#author #author-info {margin:20px 0;border-bottom: 0; padding-bottom: 0;}
+#comment-body .list-group-item {padding: 15px;}
+#comment-body ul.children {}
+#comment-body ul.children ul.children {margin-bottom: 10px;}
+#comment-body ul.children .list-group-item {background: #f9f9f9;}
+.comment-description {border-top:1px dotted #f1f1f1; padding-top: 10px; margin-top: 10px; color: #999;}
+#comment-body small.pull-right {background: #f9ba1d; color: #fff; font-size: 12px; line-height: 20px; padding: 0 10px;}
+
+#related a.list-group-item {overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+#sad {display: block; background: #ddd; color: #fff; height: 247px; border-radius: 4px; text-align: center; padding-top: 40px; text-decoration: none;}
+#sad i {font-size: 50px;}
+
+#tags {line-height: 30px; padding-top: 15px;}
+#tags span {background: #3ba2ee; color: #fff; display: inline-block; padding: 0 10px; margin-right: 5px; border-radius: 3px;}
+#tags a {background: #ec4827; color: #fff; display: inline-block; padding: 0 10px; margin-right: 5px; border-radius: 3px;}
+
+#account {margin-bottom: 25px; margin-left: -15px; margin-right: -15px;}
+.acc-form-head {border-bottom: 1px solid #ddd; margin:-10px 15px 25px;}
+#account .form-control-static {line-height: 30px; padding-top: 0; padding-left: 30px; padding-right: 30px;}
+
+#tgne {margin-left: 15px; margin-right: 15px; text-align: center; padding: 150px 0; border: 1px solid #ddd;}
+#tgne i {font-size: 200px; margin-bottom: 50px; color: #ddd;}
+#comment-body #tgne {margin-left: -15px; margin-right: -15px; padding: 50px 0;}
+#comment-body #tgne i {font-size: 100px; margin-bottom: 20px; color: #ddd;}
+
+#author-head {background-color: #f5f5f5;}
+
+#myModal .modal-header {background: #ddd; color: #fff;}
+#myModal .modal-content {border: 0; border-radius: 0;}
+#myModal .modal-content .close {color: #fff;}
+#myModal .modal-content .form-group {margin-bottom: 0;}
+#myModal .modal-content .form-control {border-radius: 0; padding: 10px 15px; height:54px;}
+#myModal .modal-footer {padding: 0;}
+#myModal .modal-footer .btn {border: 0;border-radius: 0; padding: 20px 25px; margin: 0; float: right;}
+
+@media (min-width: 1200px) {
+	#list-grid .avatar {height: 79px;}
+	.list-group-item-info {height: 79px; line-height: 79px;}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	#list-grid .avatar {height: 62px;}
+	.list-group-item-info {height: 62px; line-height: 62px;font-size: 14px;}
+}
+@media (max-width: 991px) {
+	#list-grid .avatar {height: 44px;}
+	.list-group-item-info {height: 44px; line-height: 44px;font-size: 12px;}
+}
