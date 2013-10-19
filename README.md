@@ -1,7 +1,6 @@
 ### Not Only A WordPress Theme###
-项目主页：http://www.qinglt.com
-###Demo Site###
-http://www.qinglt.com/forum
+项目主页/演示：http://uestc.tk
+
 ###使用###
 一套WordPress的社区主题，基于Bootstrap3及Ueditor。 
 
