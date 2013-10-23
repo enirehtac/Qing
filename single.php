@@ -33,7 +33,9 @@ if($_GET['uidx']) {
 		<li><?php the_category(', '); ?></li>
 		<li class="active"><?php the_title(); ?></li>
 		<?php edit_post_link('管理员编辑','<li class="active">','</li> '); ?>
-		<span class="pull-right"><i class="glyphicon glyphicon-eye-open"></i> <?php echo getPostViews(get_the_ID()); ?>次浏览</span>
+		<span class="pull-right"><i class="glyphicon glyphicon-eye-open"></i> <?php echo getPostViews(get_the_ID()); ?>次浏览&nbsp;&nbsp;
+<i class="glyphicon glyphicon-time"></i> <?php echo time_since($post->post_date);?>
+</span>
 	</ol>
 	<div class="row">
 		<div class="col-sm-12">
