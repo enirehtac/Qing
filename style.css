@@ -23,9 +23,9 @@ img { border: 0; max-width: 100%; }
 .alignright { float:right;}
 .aligncenter { margin-left:auto; margin-right:auto;display: block;}
 
-#topbar {background: #6882BE; color: #fff; border:none; border-radius: 0; height: 50px;}
+#topbar {background: #fff; color: #fff; border:none; border-radius: 0; height: 50px;}
 #topbar li {margin-left: 5px;}
-#topbar a {color: #fff;}
+#topbar a {color: #000;}
 #topbar .active a,#topbar .open a,#topbar .navbar-nav a:hover {color: #3ba2ee; background: #fff;}
 #topbar .dropdown a .caret {border-top-color: #fff;border-bottom-color: #fff;}
 #topbar .open a .caret,#topbar .dropdown a:hover .caret {border-top-color: #3ba2ee;border-bottom-color: #3ba2ee;}
@@ -45,6 +45,12 @@ img { border: 0; max-width: 100%; }
 .views {background: #e5e5e5;}
 .comments {background: #969cb1;}
 .list-group-item-info .edui-tooltip {display: none!important;}
+
+#hdr{
+border-bottom:1px solid #000;
+position:relative;
+top:-15px;
+}
 
 #pager {margin-top: 0;}
 
