@@ -15,11 +15,9 @@ echo count($users), ' 用户'; ?>
  · 
 <?php echo $wpdb->get_var("SELECT COUNT(*) FROM $wpdb->comments");?>
 &nbsp;回复
-<!-- GitHub Star -->
-<iframe src="http://ghbtns.com/github-btn.html?user=enirehtac&repo=Qing&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110px" height="20px" class="alignright"></iframe>
+<div style="float:right;text-align:right;">Lovingly Present by <a href="http://uestc.tk">Qing</a>.</div>	
+  </div>
 
-	</div>
-<div style="display:none;"><script src="http://s9.cnzz.com/stat.php?id=5684438&web_id=5684438" language="JavaScript"></script></div>
 </footer>
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
