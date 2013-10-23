@@ -167,5 +167,5 @@ if( !empty($_POST['mm_reg']) ) {
 	</div>
 	<?php } ?>
 	</div>
-</div>
-<?php get_footer(); ?>
+</div><div style="position:absolute;bottom:2px;width:100%">
+<?php get_footer(); ?></div>
