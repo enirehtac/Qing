@@ -41,7 +41,7 @@ if($_GET['uidx']) {
 					<div class="media-body">
 						<h4 class="media-heading">
 							<a href="<?php echo get_author_posts_url($val); ?>"><?php echo the_author_meta( 'display_name',$val ); ?></a>
-						</h4>
+			<small># UESTC 第 <?php echo the_author_meta( 'ID',$val ); ?> 号会员，加入于 <?php echo the_author_meta( 'user_registered',$val ); ?></small>		</h4>
 						<p>
 							<?php echo the_author_meta('description',$val); ?>
 						</p>
