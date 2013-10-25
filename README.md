@@ -6,7 +6,9 @@
 
 请自行新建页面 "最热" "登入/注册" "资料设置" "关注" && 分类 "精华"...
 
-###轻1.0.0正式版开发计划:[Plan](https://github.com/enirehtac/Qing/wiki/Plan)
-
 使用和常规主题一样，上传启用没有特别的插件要求，目前主题通用性不强，需按需改动代码:D
+
+#####轻1.0.0正式版开发计划:[Plan](https://github.com/enirehtac/Qing/wiki/Plan)
+
+
 ####Licensed under MIT licence.
