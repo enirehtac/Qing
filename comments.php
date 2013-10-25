@@ -65,8 +65,8 @@
 </ul>
 
 <div class="col-sm-12">
-	
-<?php if ( get_option('comment_registration') && !$user_ID ) : ?>
+<?php if (!is_user_logged_in() ) : ?>
+
 <div id="tgne">
 	<p><i class="glyphicon glyphicon-tint"></i></p>
 	<p>你必须<a href="<?php bloginfo('url'); ?>/sign-in?from=<?php the_ID(); ?>">登入</a>或<a href="<?php bloginfo('url'); ?>/sign-in?reg=ok&from=<?php the_ID(); ?>">注册</a>后。才能回复主题.</p>
@@ -85,7 +85,6 @@
 
 <button type="submit" class="btn btn-primary">回复</button>
 <?php cancel_comment_reply_link('<span class="btn btn-default">取消回复</span>'); ?>
-<span style="color:#999;float: right;text-align: right;">请尽量让自己的回复能够对别人有帮助</span>
 </div>
 <?php comment_id_fields(); ?>
 
