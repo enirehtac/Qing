@@ -70,8 +70,8 @@ if( isset($_POST['post_form']) && $_POST['post_form'] == 'send')
 <title><?php if (is_single() || is_page() || is_archive() || is_search()) { ?><?php wp_title('',true); ?> - <?php } bloginfo('name'); ?><?php if ( is_home() ){ ?> - <?php bloginfo('description'); ?><?php } ?><?php if ( is_paged() ){ ?> - <?php printf( __('Page %1$s of %2$s', ''), intval( get_query_var('paged')), $wp_query->max_num_pages); ?><?php } ?></title>
 <?php 
 if (is_home()){ 
-	$description     = get_option('mao10_description');
-	$keywords = get_option('mao10_keywords');
+	$description     = get_option('qing_description');
+		$keywords = get_option('qing_keywords');
 } elseif (is_single() || is_page()){    
 	$description1 =  $post->post_excerpt ;
 	$description2 = mb_strimwidth(strip_tags(apply_filters('the_content', $post->post_content)), 0, 200, "…");
